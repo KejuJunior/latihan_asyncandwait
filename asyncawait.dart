@@ -101,6 +101,5 @@ List<Map> datamhs(String a, int b, double c){
     var input3 = stdin.readLineSync()!;
 
   var hasil = datamhs(input1, int.parse(input2), double.parse(input3));
-  print('Nama Saya : ${hasil[0]['Nama']}, Umur : ${hasil[0]['Umur']}, Berat Saya : ${hasil[0]['Berat']}');
-
+    print('Nama Saya : ${hasil[0]['Nama']}, Umur : ${hasil[0]['Umur']}, Berat Saya : ${hasil[0]['Berat']}');
 }
